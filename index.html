@@ -689,28 +689,24 @@ table.bd{border-collapse:collapse;margin:6px 0;font-size:.8rem}table.bd td,table
 #bb{background:#fff;border:2px solid var(--g);border-radius:12px;padding:12px 14px;margin-bottom:12px}#bb h2{margin:0 0 4px;font-size:1.1rem}#bb .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:8px}#bb h3{margin:0 0 4px;font-size:.9rem}#bb ul{margin:0;padding-left:18px;font-size:.85rem}#bb li{margin:3px 0}#bb a{cursor:pointer}#bb .warn h3{color:#9b2c11}#bb .note{font-size:.78rem;color:var(--mut);margin:8px 0 0}
 .tabs{display:flex;gap:6px;margin-bottom:10px;overflow-x:auto}.tabs button{flex:0 0 auto;padding:8px 14px;border:1px solid var(--g);border-radius:20px;background:#fff;color:var(--g);font:inherit;font-weight:600;cursor:pointer}.tabs button[aria-selected=true]{background:var(--g);color:#fff}
 [hidden]{display:none!important}#elk{display:block}
+header a{color:#fff;text-decoration:underline}
 footer{padding:16px;font-size:.82rem;color:var(--mut)}a{color:var(--g)}
 @media(max-width:640px){.bar{position:static}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.card{grid-template-columns:1fr 78px}h1{font-size:1.3rem}#map{height:220px}}
 </style></head><body>
 <header><div class="in"><h1>Tennessee Quota Hunt Draw Odds</h1>
-<p>TWRA hands out a limited number of permits for some hunts on Wildlife Management Areas (WMAs) through a lottery called a quota hunt. Each year you apply and don't get drawn, you earn a priority point, and TWRA draws the highest point group first. Within each point group it's a random lottery, so once permits run out partway through a group, only some people at that level get drawn. This page uses TWRA's published draw results to show how many points each hunt took and what your odds are with your points.</p>
+<p>Lowest priority points that drew each TWRA quota hunt, and the share drawn at each point level, from TWRA's published draw results.</p>
 <details class="how"><summary>How to read this</summary><dl>
-<dt>Lowest points that drew</dt><dd>The lowest point level where at least one applicant was drawn. "0" means some people with zero points got lucky. It does <i>not</i> mean everyone with 0 drew.</dd>
-<dt>Odds with N points</dt><dd>At that lowest level, the share of applicants who were drawn. It's a lottery within that group.</dd>
-<dt>Guaranteed at</dt><dd>The lowest level where every applicant at that level <i>and above</i> was drawn. "No guaranteed level" means someone at the top point level still missed out. When few people applied at those levels, it says "small sample".</dd>
-<dt>Your odds</dt><dd>Enter your points to see the share drawn among applicants with exactly your points. If nobody applied at your level, it tells you whether you're above or below the lowest level that drew.</dd>
-<dt>Trend</dt><dd>Lowest points that drew in 2026 compared with the same hunt in 2025. ▲ means it got harder, ▼ easier.</dd>
-<dt>Permits / Applicants</dt><dd>How many permits were available, and how many applications listed the hunt.</dd></dl>
-<p style="margin:10px 0 2px;font-weight:600">TWRA's rules (from TWRA's quota hunt pages and Reference Table)</p><ul style="margin:0;padding-left:18px;font-size:.88rem">
-<li><b>Each hunt type has its own point total.</b> TWRA: "Each point system is unique and separate for the different quota hunts, i.e., WMA Big Game, Spring Turkey." That's why each tab has its own points box.</li>
-<li>Permits are not transferable.</li>
-<li>Points reset when you're <i>drawn</i>, not when you hunt. TWRA's rule is "If you are successfully drawn, then your priority points will reset to zero," and we found no exception for people who are drawn but don't go.</li>
-<li>Your points are applied automatically to every application, across all of your hunt choices. You can't choose to hold them back. The only way to earn a point without entering the draw is a point-only application, which can't be combined with a regular application in the same year.</li>
-<li>If you're drawn for <i>any</i> of your choices, your points reset to zero. If you're not drawn, you gain 1 point. Leftover permits don't affect your points.</li>
-<li>For parties, points are averaged across members (WMA Big Game rounds to the nearest whole number). If the party isn't drawn, each member gains 1 point.</li>
-<li>Choices per application: WMA Big Game up to 15, Youth WMA Big Game 7 (14 per the Reference Table), Spring Turkey 24, Youth Spring Turkey 5.</li>
-<li>Applications are checked from the highest point group down, at random within each group. Each one is matched to its highest-ranked choice that still has permits. That's why some higher-point applicants show up as "not drawn" for a hunt: they were drawn for a choice they ranked higher.</li></ul>
-<p style="margin:8px 0 0;font-size:.85rem">Caveats: applicants are counted under every hunt they chose, and parties use averaged points, so these are guides, not guarantees.</p></details></div></header>
+<dt>Lowest points that drew</dt><dd>The lowest point level with at least one applicant drawn.</dd>
+<dt>Odds with N points</dt><dd>Applicants drawn ÷ applicants at that point level.</dd>
+<dt>Guaranteed at</dt><dd>The lowest level where every applicant at that level and above was drawn.</dd>
+<dt>Your odds</dt><dd>Applicants drawn ÷ applicants at your point level.</dd>
+<dt>2025</dt><dd>Lowest points that drew for the same area's matching hunt in 2025. ▲ higher in 2026, ▼ lower.</dd>
+<dt>Permits / Applicants</dt><dd>TWRA's "Quota" and "Total Applicants" columns.</dd></dl>
+<p style="margin:10px 0 2px;font-weight:600">TWRA rules</p><ul style="margin:0;padding-left:18px;font-size:.88rem">
+<li>"Each point system is unique and separate for the different quota hunts, i.e., WMA Big Game, Spring Turkey, WMA, etc." <a href="https://www.tn.gov/twra/hunting/quota-hunts.html">Source</a></li>
+<li>"If you are successfully drawn, then your priority points will reset to zero." <a href="https://www.tn.gov/twra/hunting/quota-hunts.html">Source</a></li>
+<li>"Applications are automatically sorted by priority point groups, from highest to lowest." <a href="https://www.tn.gov/twra/hunting/quota-hunts.html">Source</a></li>
+<li>"Priority points in a party will be averaged and rounded to the nearest whole number." (WMA Big Game) <a href="https://www.tn.gov/twra/hunting/quota-hunts/wma-big-game-hunts.html">Source</a></li></ul></details></div></header>
 <div class="bar"><div class="in"><div class="tabs" role="tablist"><button data-t="bg" role="tab">WMA Big Game</button><button data-t="tk" role="tab">Spring Turkey</button><button data-t="elk" role="tab">Elk</button></div><div class="f">
 <label>Search<input id="q" placeholder="WMA name"></label>
 <label><span id="ptl">I have __ WMA Big Game points</span><input id="pts" type="number" min="0" max="20" inputmode="numeric" placeholder="e.g. 2"></label>
@@ -719,8 +715,8 @@ footer{padding:16px;font-size:.82rem;color:var(--mut)}a{color:var(--g)}
 <label>Within<select id="dist"><option value="">Any distance</option><option>25</option><option>50</option><option>100</option><option>200</option></select></label>
 <label>Sort<select id="so"><option value="hard">Most points to draw</option><option value="easy">Fewest points to draw</option><option value="me">Best odds for me</option><option value="near">Nearest</option><option value="date">Hunt date</option></select></label>
 </div><p class="msg" id="msg"></p></div></div>
-<main><div id="elk" class="card" hidden><b>Elk draw results haven't been posted yet.</b><p class="meta">TWRA's <a href="https://www.tn.gov/twra/hunting/quota-hunts/elk-and-youth-elk-hunts.html">Elk and Youth Elk page</a> still says "Coming Soon" for draw results. Per TWRA's Reference Table, the elk draw doesn't use priority points, and up to 4 choices are allowed (Youth Elk: 1). We'll add results when TWRA posts them.</p></div><div id="bb" hidden></div><div id="map"></div><p class="meta"><span id="c"></span><span id="chip"></span></p><div id="list"></div></main>
-<footer><p><b>Source: TWRA, as of Oct 20, 2026.</b> Draw results come from the <a href="https://www.tn.gov/twra/hunting/quota-hunts/wma-big-game-hunts.html">WMA Big Game</a> (2026, 2025) and <a href="https://www.tn.gov/twra/hunting/quota-hunts/turkey-hunts.html">Spring Turkey</a> (2026) pages. Regions come from TWRA's regional WMA lists. Elk results were "Coming Soon", and no draw tables were published for waterfowl, quail, crane or Cherokee.</p>
+<main><div id="elk" class="card" hidden><b>Elk draw results haven't been posted.</b><p class="meta">TWRA's <a href="https://www.tn.gov/twra/hunting/quota-hunts/elk-and-youth-elk-hunts.html">Elk and Youth Elk page</a> showed "Coming Soon" for draw results as of Oct 20, 2026. TWRA's <a href="https://www.tn.gov/content/dam/tn/twra/documents/licensing/TWRA-Quota-Hunt-Reference-Table.pdf">Quota Hunt Reference Table</a> lists no priority points for Elk.</p></div><div id="bb" hidden></div><div id="map"></div><p class="meta"><span id="c"></span><span id="chip"></span></p><div id="list"></div></main>
+<footer><p><b>Source: TWRA, as of Oct 20, 2026.</b> Draw results come from the <a href="https://www.tn.gov/twra/hunting/quota-hunts/wma-big-game-hunts.html">WMA Big Game</a> (2026, 2025) and <a href="https://www.tn.gov/twra/hunting/quota-hunts/turkey-hunts.html">Spring Turkey</a> (2026) pages. Regions come from TWRA's regional WMA lists. The Elk, waterfowl, quail, sandhill crane and Cherokee pages had no draw-results tables.</p>
 <p>Locations come from OpenStreetMap (© OpenStreetMap contributors). Some are approximate points, and distances are straight-line. ZIP lookup uses Zippopotam.us; city lookup uses OpenStreetMap Nominatim.</p>
 <p><b>Unofficial.</b> This site is not affiliated with or endorsed by TWRA. Always confirm with TWRA before applying.</p></footer>
 <script>/* @preserve
@@ -738,13 +734,13 @@ const num=v=>/^\d+$/.test(v)?+v:null;
 function mine(r,p){if(p===null)return null;const lv=r.bd[p],mn=num(r.minpts);
  if(lv&&lv[1])return{v:lv[0]/lv[1],t:`${Math.round(100*lv[0]/lv[1])}% (${lv[0]} of ${lv[1]})${lv[1]<10?' · small sample':''}`};
  if(mn===null)return{v:-1,t:'No data'};
- if(p>mn)return{v:.999,t:'No one at your level; above lowest that drew'};return{v:0,t:'Below lowest that drew (0%)'}}
+ if(p>mn)return{v:.999,t:'No applicants at your level; above lowest that drew'};return{v:0,t:'No applicants at your level; below lowest that drew'}}
 function oddsTxt(r){const n=num(r.minpts),lv=n!==null&&r.bd[n];if(!lv||!lv[1])return 'n/a';return `${Math.round(100*lv[0]/lv[1])}% (${lv[0]} of ${lv[1]})${lv[1]<10?' · small sample':''}`}
 function guar(o){const k=Object.keys(o).map(Number).filter(x=>o[x][1]>0).sort((a,b)=>b-a);if(!k.length)return 'n/a';let m=null,n=0;for(const x of k){if(o[x][0]>=o[x][1]){m=x;n+=o[x][1]}else break}
  if(m===null)return 'No guaranteed level';return `${m}+ points`+(n<10?` (small sample: all ${n} of ${n} drew)`:` (all ${n} drew)`)}
 function gnum(o){const k=Object.keys(o).map(Number).filter(x=>o[x][1]>0).sort((a,b)=>b-a);let m=null,n=0;for(const x of k){if(o[x][0]>=o[x][1]){m=x;n+=o[x][1]}else break}return m===null?null:{m,n}}
 function best(R,p){const el=$('bb');if(p===null){el.hidden=true;return}el.hidden=false;
- const lk=(r,t)=>`<li><a data-id="${r.id}">${esc(r.area.replace(/\s*\(.*$/,''))}</a> · ${esc(r.species.split('/')[0])} ${esc(r.start.replace(/\/20\d\d$/,''))}: ${t}</li>`;
+ const lk=(r,t)=>`<li><a data-id="${r.id}">${esc(r.area.replace(/\s*\(.*$/,''))}</a> · ${esc(r.start.replace(/\/20\d\d$/,''))}: ${t}</li>`;
  const likely=[],save=[],warn=[];
  R.forEach(r=>{const g=gnum(r.bd),lv=r.bd[p],mn=num(r.minpts),z=r.bd[0];
   if(g&&g.m<=p)likely.push([2+(g.n>=10),r,`everyone with ${g.m}+ points drew${g.n<10?` (small sample, ${g.n} people)`:''}`]);
@@ -753,13 +749,13 @@ function best(R,p){const el=$('bb');if(p===null){el.hidden=true;return}el.hidden
   if(p>=1&&z&&z[1]>=20&&z[0]/z[1]>=.25)warn.push([z[0]/z[1],r,`${Math.round(100*z[0]/z[1])}% of ${z[1]} zero-point applicants drew`])});
  likely.sort((a,b)=>b[0]-a[0]||b[1].quota-a[1].quota);save.sort((a,b)=>a[0]-b[0]);warn.sort((a,b)=>b[0]-a[0]);
  const L5=a=>a.length?'<ul>'+a.slice(0,6).map(x=>lk(x[1],x[2])).join('')+'</ul>'+(a.length>6?`<p class="note">+${a.length-6} more</p>`:''):'<p class="note">None match your filters.</p>';
- el.innerHTML=`<h2>Best bets for your ${p} ${esc(TY[tab])} point${p==1?'':'s'}</h2><div class="meta">Uses TWRA's 2026 ${esc(TY[tab])} results and your current region, location and search filters.</div><div class="cols">
- <div><h3>Likely draw</h3>${L5(likely)}</div><div><h3>Worth saving for</h3><p class="note" style="margin:0 0 4px">Lowest that drew was 1–3 points above yours.</p>${L5(save)}</div>
- <div class="warn"><h3>Don't waste points</h3><p class="note" style="margin:0 0 4px">Zero-point applicants drew these often. Drawing <i>any</i> of your choices resets your points to 0, so a new hunter could likely get these without points.</p>${L5(warn)}</div></div>
- <p class="note">Past results, not a promise. Small samples are flagged.</p>`;
+ el.innerHTML=`<h2>Best bets for your ${p} ${esc(TY[tab])} point${p==1?'':'s'}</h2><div class="meta">2026 ${esc(TY[tab])} results, using your current filters.</div><div class="cols">
+ <div><h3>Likely draw</h3><p class="note" style="margin:0 0 4px">Everyone at your points or higher drawn, or 50%+ drawn at your points (10+ applicants).</p>${L5(likely)}</div><div><h3>Worth saving for</h3><p class="note" style="margin:0 0 4px">Lowest that drew: 1–3 points above yours.</p>${L5(save)}</div>
+ <div class="warn"><h3>Don't waste points</h3><p class="note" style="margin:0 0 4px">25%+ of zero-point applicants drawn (20+ applicants). Points reset to zero when you're drawn.</p>${L5(warn)}</div></div>
+ <p class="note">Based on 2026 draw results.</p>`;
  el.querySelectorAll('a[data-id]').forEach(a=>a.onclick=()=>{const e=$('h'+a.dataset.id);if(e){e.scrollIntoView({behavior:'smooth',block:'center'});e.classList.add('hl');setTimeout(()=>e.classList.remove('hl'),2500)}})}
 function mi(a,b){const R=3958.8,t=x=>x*Math.PI/180,dl=t(b.lat-a.lat),dn=t(b.lon-a.lon);return 2*R*Math.asin(Math.sqrt(Math.sin(dl/2)**2+Math.cos(t(a.lat))*Math.cos(t(b.lat))*Math.sin(dn/2)**2))}
-function trend(r){if(!r.prev)return r.type=='Spring Turkey'?'<span class="tr">No 2025 data</span>':'<span class="tr">New in 2026</span>';const a=num(r.minpts),b=num(r.prev.minpts);if(a===null||b===null)return'<span class="tr">n/a</span>';
+function trend(r){if(!r.prev)return r.type=='Spring Turkey'?'<span class="tr">No 2025 data</span>':'<span class="tr">No 2025 match</span>';const a=num(r.minpts),b=num(r.prev.minpts);if(a===null||b===null)return'<span class="tr">n/a</span>';
  return a>b?`<span class="tr up">▲ ${b}→${a}</span>`:a<b?`<span class="tr dn">▼ ${b}→${a}</span>`:`<span class="tr">= same (${a})</span>`}
 function bdt(o){const k=Object.keys(o).map(Number).sort((a,b)=>a-b);return k.length?`<table class="bd"><tr><th>Points</th>${k.map(x=>`<td>${x}</td>`).join('')}</tr><tr><th>Drawn</th>${k.map(x=>`<td>${o[x][0]}</td>`).join('')}</tr><tr><th>Applied</th>${k.map(x=>`<td>${o[x][1]}</td>`).join('')}</tr></table>`:''}
 function draw(){if(tab=='elk'){syncURL();return}const q=$('q').value.toLowerCase(),p=$('pts').value===''?null:Math.max(0,parseInt($('pts').value)),dmax=+$('dist').value||0,s=$('so').value;
@@ -769,16 +765,16 @@ function draw(){if(tab=='elk'){syncURL();return}const q=$('q').value.toLowerCase
  $('chip').innerHTML=area?`<button class="chip" id="clr" title="Clear area filter">Area: ${esc(area)} ×</button>`:'';if(area)$('clr').onclick=()=>{area='';draw()};syncURL();
  $('c').textContent=`${R.length} hunts`+(dmax&&here?` within ${dmax} mi (hunts with no location are hidden)`:'');
  $('list').innerHTML=R.map(r=>{const n=num(r.minpts),cl=n===null?'n':n>=5?'h':n>=1?'m':'';
- return `<div class="card" id="h${r.id}"><div class="hd"><div class="area">${esc(r.area)}</div><div class="meta">${esc(r.species)} · ${esc(r.type)} · ${esc(r.region)}</div><div class="meta">${r.year} hunt: ${esc(r.start)}${r.end?' to '+esc(r.end):''}${r.d!=null?` · ${Math.round(r.d)} mi away`:''}${r.lat==null?' · <i>location not found</i>':''}</div></div>
+ return `<div class="card" id="h${r.id}"><div class="hd"><div class="area">${esc(r.area)}</div><div class="meta">${esc(r.type)} · ${esc(r.region)}</div><div class="meta">${r.year} hunt: ${esc(r.start)}${r.end?' to '+esc(r.end):''}${r.d!=null?` · ${Math.round(r.d)} mi away`:''}${r.lat==null?' · <i>location not found</i>':''}</div></div>
  <div class="badge ${cl}"><small>Lowest points that drew</small><b>${n===null?'—':n}</b>${n===null?'<small>see note</small>':''}</div>
  <div class="stats"><div><b>Permits</b>${r.quota}</div><div><b>Applicants</b>${r.applicants}</div><div><b>Odds with ${n===null?'N':n} points</b>${esc(oddsTxt(r))}</div><div><b>Guaranteed at</b>${esc(guar(r.bd))}</div>
  <div><b>Your odds</b>${r.me?`<span class="you">${esc(r.me.t)}</span>`:'<span class="meta">enter points</span>'}</div>
  <div><b>2025</b>${r.prev?`lowest ${esc(r.prev.minpts||'—')} ${trend(r)}`:trend(r)||'—'}</div></div>
- <details class="cardfoot"><summary>${esc(r.status)} · details</summary><b>${r.year}</b> drawn vs applied by points:${bdt(r.bd)}${r.prev?`<b>2025</b> (${esc(r.prev.start)}, ${r.prev.quota} permits, ${r.prev.applicants} applicants):${bdt(r.prev.bd)}`:''}Location: ${esc(r.loc)} · <a href="${esc(r.src)}">TWRA source file</a></details></div>`}).join('')||'<p>No hunts match.</p>';
+ <details class="cardfoot"><summary>${/second drawing|No winners/.test(r.status)?esc(r.status)+' · ':''}Details</summary><b>${r.year}</b> drawn vs applied by points:${bdt(r.bd)}${r.prev?`<b>2025</b> (${esc(r.prev.start)}, ${r.prev.quota} permits, ${r.prev.applicants} applicants):${bdt(r.prev.bd)}`:''}Location: ${esc(r.loc)} · <a href="${esc(r.src)}">TWRA source file</a></details></div>`}).join('')||'<p>No hunts match.</p>';
  if(layer){layer.clearLayers();mk={};const G={};Rmap.forEach(r=>{if(r.lat==null)return;(G[r.place]=G[r.place]||[]).push(r)});
   Object.entries(G).forEach(([pl,l])=>{l.sort((a,b)=>a.type.localeCompare(b.type)||a.start.localeCompare(b.start));const m=L.circleMarker([l[0].lat,l[0].lon],{radius:area==pl?10:7,color:area==pl?'#e0a800':'#2f5d3a',fillOpacity:.7}).addTo(layer);
    m.bindPopup(()=>{const d=document.createElement('div');d.className='pop';const ps=$('pts').value!=='';
-    d.innerHTML=`<h4>${esc(pl)}: ${l.length} hunt${l.length>1?'s':''}</h4>`+l.map(r=>`<button class="row" data-id="${r.id}">${esc(r.species.split('/')[0])} · ${esc(r.start.replace(/\/20\d\d$/,''))}${r.end?'–'+esc(r.end.replace(/\/20\d\d$/,'')):''}<br>Lowest that drew: <b>${esc(r.minpts||'—')}</b> · ${ps?'Your odds: <b>'+esc(r.me?.t||'n/a')+'</b>':'Odds with '+esc(r.minpts||'N')+' pts: '+esc(oddsTxt(r))}<br>Guaranteed at: ${esc(guar(r.bd))}</button>`).join('')+(area==pl?'':`<button class="only">Show only these below</button>`);
+    d.innerHTML=`<h4>${esc(pl)}: ${l.length} hunt${l.length>1?'s':''}</h4>`+l.map(r=>`<button class="row" data-id="${r.id}">${esc(r.start.replace(/\/20\d\d$/,''))}${r.end?'–'+esc(r.end.replace(/\/20\d\d$/,'')):''}<br>Lowest that drew: <b>${esc(r.minpts||'—')}</b> · ${ps?'Your odds: <b>'+esc(r.me?.t||'n/a')+'</b>':'Odds with '+esc(r.minpts||'N')+' pts: '+esc(oddsTxt(r))}<br>Guaranteed at: ${esc(guar(r.bd))}</button>`).join('')+(area==pl?'':`<button class="only">Show only these below</button>`);
     d.querySelectorAll('.row').forEach(b=>b.onclick=()=>{if(area&&area!=pl){area='';draw()}const c=$('h'+b.dataset.id);if(!c){area=pl;draw()}const e=$('h'+b.dataset.id);if(e){e.scrollIntoView({behavior:'smooth',block:'center'});e.classList.add('hl');setTimeout(()=>e.classList.remove('hl'),2500)}});
     const o=d.querySelector('.only');if(o)o.onclick=()=>{area=pl;map.closePopup();draw();$('c').scrollIntoView({behavior:'smooth'})};return d},{maxWidth:300,autoPanPadding:[20,20]});mk[pl]=m});
   if(here)L.circleMarker([here.lat,here.lon],{radius:7,color:'#c0392b',fillOpacity:.9}).bindPopup('You').addTo(layer)}}
